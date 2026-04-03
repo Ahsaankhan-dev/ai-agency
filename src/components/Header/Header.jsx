@@ -17,7 +17,7 @@ const Header = ({Theme,setTheme}) => {
     whileInView={{opacity:1,y:0}}
     transition={{duration:0.6,ease:'easeIn'}}
     className='flex justify-between items-center sticky top-0 px-4 py-4 xl:px-40 lg:px-24 sm:px-12 bg-white/70 backdrop-blur-xl dark:bg-gray-900/70 z-20'>
-        <img src={Theme==='dark'?assets.logo_dark:assets.logo} className='sm:w-40 w-32'/>
+        <span className='sm:text-2xl text-xl font-bold text-primary'>Oxygen.Ai</span>
         <div className='sm:gap-5 sm:text-gray-700 max-sm:hidden sm:flex dark:text-white'>
             <Link to='Home' smooth={true} ><a className='text-sm font-medium cursor-pointer sm:hover:border-b max-sm:text-[16px] dark:text-[14px]'>Home</a></Link>
             <Link to='Services' smooth={true} offset={50}><a className='text-sm font-medium cursor-pointer sm:hover:border-b max-sm:text-[16px] dark:text-[14px]'>Services</a></Link>

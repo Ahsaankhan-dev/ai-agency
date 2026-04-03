@@ -18,7 +18,7 @@ const Footer = ({ Theme }) => {
         transition={{duration:0.6,delay:0.2}}
         viewport={{once: true}}
         className='text-start dark:text-gray-400 flex flex-col gap-4'>
-          <img src={Theme === 'dark' ? assets.logo_dark : assets.logo} className='sm:w-44 w-32 mb-3' />
+          <span className='text-2xl font-bold text-primary mb-3'>Oxygen.Ai</span>
           <p className='text-sm max-w-md'>From strategy to execution, we craft digital solutions that move your business forward.</p>
           <div className='sm:gap-6 max-sm:hidden sm:flex dark:text-gray-400'>
               <Link to='Home' smooth={true} ><a className='text-sm font-medium cursor-pointer sm:hover:text-primary max-sm:text-[16px] dark:text-[14px]'>Home</a></Link>
@@ -42,7 +42,7 @@ const Footer = ({ Theme }) => {
         </motion.div>
       </div>
       <div className='border-t border-gray-300 dark:border-gray-600 flex justify-between w-full max-sm:flex-col max-sm:gap-5 items-center py-5'>
-        <p className='text-sm text-gray-500'>Copyright 2025 © Ahsaan - All Right Reserved.</p>
+        <p className='text-sm text-gray-500'>Copyright 2025 © Oxygen.Ai - All Right Reserved.</p>
         <div className='flex gap-4'>
           <img src={assets.facebook_icon}/>
           <img src={assets.twitter_icon}/>

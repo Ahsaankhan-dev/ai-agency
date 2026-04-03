@@ -1,7 +1,6 @@
 import React, { useState } from 'react'
 import Header from './components/Header/Header'
 import Home from './components/Home/Home'
-import Trustedby from './components/Trustedby/Trustedby'
 import Services from './components/Services/Services'
 import OverWork from './components/Our Work/OverWork'
 import Team from './components/Team/Team'
@@ -24,7 +23,6 @@ const App = () => {
           <Toaster/>
           <Header Theme={Theme} setTheme={setTheme} />
           <Home Theme={Theme} setTheme={setTheme} />
-          <Trustedby />
           <Services />
           <OverWork />
           <Team />

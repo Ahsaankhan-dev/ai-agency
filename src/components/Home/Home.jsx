@@ -7,15 +7,6 @@ import { motion } from 'motion/react'
 const Home = ({Theme,setTheme}) => {
   return (
     <div id='Home' className='flex min-h-screen overflow-hidden text-center w-full flex-col items-center gap-6 px-4 py-20 xl:px-40 lg:px-24 sm:px-12'>
-        <motion.div
-        initial={{opacity:0,y:20}}
-        whileInView={{opacity:1,y:0}}
-        transition={{duration:0.5,delay:0.7}}
-        viewport={{once: true}}
-        className='flex items-center pl-2 pr-4 py-1 gap-2 border border-gray-300 rounded-4xl dark:text-white'>
-            <img src={assets.group_profile} className='w-20'/>
-            <p className='text-xs'>Trusted by 10k+ people</p>
-        </motion.div >
           <motion.h1
           initial={{opacity:0,y:40}}
           whileInView={{opacity:1,y:0}}

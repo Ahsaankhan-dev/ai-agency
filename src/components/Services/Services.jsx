@@ -9,10 +9,11 @@ import { motion } from 'motion/react'
 const Services = () => {
 
    const ServiceData=[
-    {img:assets.ads_icon, title:'Advertising', text:'We turn bold ideas into powerful digital solutions that connect, engage...'},
-    {img:assets.marketing_icon, title:'Content marketing', text:'We help you execute your plan and deliver results.'},
-    {img:assets.content_icon, title:'Content writing', text:'We help you create a marketing strategy that drives results.'},
-    {img:assets.social_icon, title:'Social media', text:'We help you build a strong social media presence and engage with your audience.'}
+    {img:assets.ads_icon, title:'AI Solutions', text:'We build intelligent AI-powered systems that automate, optimize, and transform your business operations.'},
+    {img:assets.marketing_icon, title:'Software Development', text:'We craft robust, scalable software tailored to your business needs and goals.'},
+    {img:assets.content_icon, title:'Website Development', text:'We design and develop fast, modern, and responsive websites that leave a lasting impression.'},
+    {img:assets.social_icon, title:'Application Development', text:'We build powerful mobile and web applications that deliver seamless user experiences.'},
+    {img:assets.ads_icon, title:'Prompt Engineering', text:'We engineer precise and effective AI prompts that maximize the performance of your AI tools.'}
    ]
 
   return (
