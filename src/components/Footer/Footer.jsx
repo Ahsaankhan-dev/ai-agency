@@ -18,7 +18,9 @@ const Footer = ({ Theme }) => {
         transition={{duration:0.6,delay:0.2}}
         viewport={{once: true}}
         className='text-start dark:text-gray-400 flex flex-col gap-4'>
-          <span className='text-2xl font-bold text-primary mb-3'>Oxygen.Ai</span>
+          <span className='text-2xl font-extrabold mb-3'>
+            <span className='text-gray-700 dark:text-white'>Oxygen.</span><span className='bg-gradient-to-r from-[#5044E5] to-[#4d8cea] bg-clip-text text-transparent'>Ai</span>
+          </span>
           <p className='text-sm max-w-md'>From strategy to execution, we craft digital solutions that move your business forward.</p>
           <div className='sm:gap-6 max-sm:hidden sm:flex dark:text-gray-400'>
               <Link to='Home' smooth={true} ><a className='text-sm font-medium cursor-pointer sm:hover:text-primary max-sm:text-[16px] dark:text-[14px]'>Home</a></Link>
