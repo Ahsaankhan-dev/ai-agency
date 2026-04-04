@@ -49,7 +49,7 @@ const Footer = ({ Theme }) => {
           <div className='flex flex-col gap-3 mt-1'>
             <div className='flex items-center gap-2'>
               <img src={assets.email_icon} className='w-4 opacity-60' />
-              <p className='text-sm text-gray-500 dark:text-gray-400'>contact@oxygen.io</p>
+              <p className='text-sm text-gray-500 dark:text-gray-400'>chmisam.143@gmail.com</p>
             </div>
             <div className='flex items-center gap-2'>
               <img src={assets.person_icon} className='w-4 opacity-60' />
