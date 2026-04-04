@@ -20,11 +20,11 @@ const Footer = ({ Theme }) => {
           transition={{ duration: 0.6, delay: 0.2 }}
           viewport={{ once: true }}
           className='text-start dark:text-gray-400 flex flex-col gap-4'>
-          <span className='flex items-baseline gap-1.5'>
+          <span className='flex items-baseline'>
             <span className='oxygen-logo sm:text-[25px] text-[22px] text-gray-700 dark:text-white tracking-tight'>
               Oxygen
             </span>
-            <span className='sm:text-[20px] text-[15px] bg-linear-to-r from-[#392ce6] to-[#326bc0] bg-clip-text text-transparent'>
+            <span className='io-logo inline-block sm:text-[18px] text-[15px] leading-none tracking-[-0.02em] bg-linear-to-r from-[#392ce6] to-[#326bc0] bg-clip-text text-transparent'>
               .io
             </span>
           </span>

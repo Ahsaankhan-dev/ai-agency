@@ -17,13 +17,13 @@ const Header = ({ Theme, setTheme }) => {
       whileInView={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.6, ease: 'easeIn' }}
       className='flex justify-between items-center sticky top-0 px-4 py-4 xl:px-40 lg:px-24 sm:px-12 bg-white/70 backdrop-blur-xl dark:bg-gray-900/70 z-20'>
-      <span className='flex items-baseline gap-1.5'>
+      <span className='flex items-baseline'>
         <span className='oxygen-logo sm:text-[25px] text-[22px] text-gray-700/90 dark:text-white tracking-tight'>
           Oxygen
         </span>
-        <span className='sm:text-[20px] text-[15px] bg-linear-to-r from-[#392ce6] to-[#326bc0] bg-clip-text text-transparent'>
-          .io
-        </span>
+        <span className='io-logo inline-block sm:text-[18px] text-[15px] leading-none tracking-[-0.02em] bg-linear-to-r from-[#392ce6] to-[#326bc0] bg-clip-text text-transparent'>
+    .io
+  </span>
       </span>
       <div className='sm:gap-5 sm:text-gray-700 max-sm:hidden sm:flex dark:text-white'>
         <Link to='Home' smooth={true} ><a className='text-sm font-medium cursor-pointer sm:hover:border-b max-sm:text-[16px] dark:text-[14px]'>Home</a></Link>
