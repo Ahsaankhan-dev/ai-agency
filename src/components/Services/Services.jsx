@@ -23,7 +23,7 @@ const Services = () => {
     whileInView="visible"
     viewport={{once:true}}
     transition={{staggerChildren:0.2}}
-    className='flex items-center flex-col text-center gap-7 pt-30 min-h-screen px-4 xl:px-40 lg:px-24 sm:px-12'>
+    className='flex items-center flex-col text-center gap-7 pt-20 sm:pt-30 min-h-screen px-4 xl:px-40 lg:px-24 sm:px-12'>
       <Heading text="How can we help?"/>
       <HeadingPara text="From strategy to execution, we craft digital solutions that move your business forward."/>
       <div className='flex flex-col md:grid md:grid-cols-2 items-stretch gap-3 sm:gap-3.5 lg:gap-5 w-full max-w-5xl'>

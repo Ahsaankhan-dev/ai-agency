@@ -6,7 +6,7 @@ import { motion } from 'motion/react'
 
 const Home = ({Theme,setTheme}) => {
   return (
-    <div id='Home' className='flex min-h-screen overflow-hidden text-center w-full flex-col items-center gap-6 px-4 py-20 xl:px-40 lg:px-24 sm:px-12'>
+    <div id='Home' className='flex h-full overflow-hidden text-center w-full flex-col items-center gap-6 px-4 lg:pt-20 lg:pb-20 pt-20 xl:px-40 lg:px-24 sm:px-12'>
           <motion.h1
           initial={{opacity:0,y:40}}
           whileInView={{opacity:1,y:0}}

@@ -36,6 +36,7 @@ import measumImg from './measum_crop.jpeg'
 import ahsaanImg from './ahsaan_crop.jpg'
 import person2Img from './person2_crop.jpeg'
 import person4Img from './person4_crop.jpg'
+import person5Img from './person5_crop.jpeg'
 
 export const company_logos = [
   microsoft_logo,
@@ -74,18 +75,19 @@ const assets = {
   moon_icon,
   lock_icon,
   mail_icon,
-  person_icon2
+  person_icon2,
+  person5Img
 }
 
 export default assets
 
 export const teamData = [
   { name: 'Measum Bilal', title: 'CEO & Founder', image: measumImg },
-  { name: "It'x Misam", title: 'Manager', image: person2Img },
+  { name: "Moeed Haider", title: 'Manager', image: person2Img },
   { name: 'Ahsaan', title: 'MERN Stack Developer', image: ahsaanImg },
-  { name: 'Team Member', title: 'Accountant', image: person4Img },
+  { name: 'Hassan', title: 'Accountant', image: person4Img },
   { name: 'Emily Parker', title: 'Frontend Developer', image: 'https://randomuser.me/api/portraits/women/11.jpg' },
   { name: 'Ryan Mitchell', title: 'Backend Developer', image: 'https://randomuser.me/api/portraits/men/9.jpg' },
   { name: 'Megan Brooks', title: 'Prompt Engineer', image: 'https://randomuser.me/api/portraits/women/12.jpg' },
-  { name: 'Amber Foster', title: 'Quality Assurance (QA)', image: 'https://randomuser.me/api/portraits/women/14.jpg' },
+  { name: ' Ahmed Naseer', title: 'Quality Assurance (QA)', image: person5Img },
 ]
